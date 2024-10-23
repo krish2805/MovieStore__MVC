@@ -1,0 +1,95 @@
+/* Global settings */
+:root {
+    --primary-color: #f1f1f1;
+    --background-color: #1c1c1c;
+    --btn-bg-color: #3b3b3b;
+    --btn-hover-bg-color: #5c5c5c;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
+/* Form styling */
+form {
+    font-family: 'Mukta', sans-serif;
+}
+
+/* Input styling for the search bar */
+.input-container {
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem 0; /* More padding to make it bigger */
+}
+
+.input {
+    padding: 0.6rem;
+    width: 80%; /* Wider search bar */
+    font-size: 1.1rem; /* Bigger text */
+    border: 2px solid #888;
+    background-color: #2a2a2a; /* Dark background */
+    color: var(--primary-color);
+    border-radius: 5px;
+}
+
+button {
+    padding: 0.8rem 1.5rem; /* Bigger button */
+    font-size: 1.1rem;
+    background-color: var(--btn-bg-color);
+    color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    button:hover {
+        background-color: var(--btn-hover-bg-color);
+    }
+
+/* Remove footer (if you have a footer class or tag) */
+footer {
+    display: none;
+}
+
+/* Table Styling */
+.tbl-container {
+    margin: 1.5rem 0;
+    color: var(--primary-color);
+}
+
+    .tbl-container table {
+        width: 100%;
+        border-spacing: 0;
+        border-collapse: collapse;
+        background-color: #2a2a2a;
+        color: var(--primary-color);
+    }
+
+        .tbl-container table th, td {
+            padding: 1rem;
+            font-size: 1rem;
+            border-bottom: 1px solid #555;
+        }
+
+        .tbl-container table tr:nth-child(even) {
+            background-color: #333;
+        }
+
+/* Button Styles */
+.btn {
+    background-color: var(--btn-bg-color);
+    border: none;
+    color: var(--primary-color);
+    padding: 0.7rem 1.2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0.5rem;
+}
+
+    .btn:hover {
+        background-color: var(--btn-hover-bg-color);
+    }
